@@ -1,0 +1,315 @@
+.price {
+    font-weight:bold;
+    font-size:16px;
+    padding-top:8px;
+}
+
+.thumbnail .description {
+    color:#7f7f7f;
+}
+
+.header_image {
+    /*height:50vh;*/
+}
+
+.header_default {
+    border:0;
+    border-radius: 0 !important;
+    background-color:white;
+    margin:0;
+}
+
+
+.Products_header {
+    text-align:center;
+}
+
+#navbarItem {
+    color:black;
+    font-family:Abez;
+    font-weight:600;
+}
+
+.productImage {
+    border:none;
+}
+
+.headerbanner {
+    background-color:black;
+    height:30px;
+}
+
+#FreeShipping {
+    color:white;
+    font-size:13px;
+    text-decoration: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    float:left;
+    font-family:flatwheat;
+}
+.headerbanner-promo {
+    background-color: #ff0586;
+    height:40px;
+}
+
+
+.glyph-search {
+    background-color: #ff0586;
+}
+
+.searchtext {
+    border-radius:0px;
+    font-family:Semi;
+}
+
+.searchgroup {
+    width:200px !important;
+}
+
+.headerbanner-promo h2 {
+    margin:0px;
+    text-align:center;
+    font-size:14px;
+    color:white;
+    font-family:Semi;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+#myCarousel {
+    margin-bottom:40px;
+}
+
+.CustFav {
+    text-align:center;
+}
+
+.CustFav h4 {
+    font-weight:600;
+
+}
+
+
+ /*THIS IS MY FOOTER*/
+.footerOk {
+    padding: 10px 0px;
+    background-color: #f2ffe8;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    list-style:none;
+    display:inline-block;
+    margin-right:2%;
+    margin-bottom:20px;
+
+
+}
+
+.footerAlign {
+    text-align:center;
+}
+
+
+
+footer nav ul li a {
+    color: #000000;
+    font-family:Abez;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size:12px;
+}
+
+footer nav ul li a:hover {
+    color: #ff0586;
+    text-decoration:none;
+}
+
+.footerCopy {
+    text-align:center;
+}
+
+.footerCopy p {
+    color: #000000;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:13px;
+    font-weight:500;
+    letter-spacing:1px;
+}
+
+
+/*END OF THE FOOTER*/
+
+
+
+.full_nav {
+    padding:0;
+}
+
+#col_nav {
+    padding:0;
+}
+#bs-example-navbar-collapse-1 {
+    padding:0;
+}
+
+.Mbeauty {
+    padding-top:12px;
+}
+
+
+/*Three column nav*/
+
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: normal;
+    font-family:Abez;
+    text-decoration: none;
+    text-align:center;
+}
+
+ /*NAVBAR ITEM UNDERLINE ANIMATION*/
+
+.navbar-nav {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#navbarItem a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#navbarItem a:hover:after {
+    width: 100%;
+    background: #ff0035;
+}
+/*UNDERLINE ANIMATION ENDS*/
+
+.badge {
+    background-color:limegreen;
+}
+
+.priceqt {
+    font-family:Alez;
+    font-weight:700;
+    font-size:17px;
+    color:red;
+}
+
+.shopcart {
+    text-align:center;
+}
+
+.shopunder {
+    text-decoration:underline;
+}
+
+.shopcartdesc {
+    font-family:Abez;
+    font-weight:bold;
+}
+
+.producttotal {
+    font-weight:700;
+    font-size:17px;
+    color: #d33c00;;
+}
+
+
+.multi-column-dropdown li a:hover {
+    background-color: white;
+}
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background:#FFF !important;
+}
+
+.caption h3 {
+    text-align:center;
+}
+
+.quantity {
+    text-align: right;
+    padding-bottom:5px;
+}
+
+.quatimp {
+    border-radius:5px;
+}
+
+.quantprod {
+    padding-right:5px;
+}
+
+.cartHeader {
+    font-family:Abez;
+    font-size:16px;
+    font-weight:700;
+}
+
+@media (max-width: 767px) {
+    .dropdown-menu.multi-column {
+        min-width: 240px !important;
+        overflow-x: hidden;
+    }
+}
+
+ /*NOT TO TURN ON DROPDOWN ON HOVER - SMALL*/
+@media (min-width: 979px) {
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;
+    }
+}
+
+
+
+@font-face {
+    font-family:silly;
+    src: url("../../fonts/Psilly.otf");
+}
+
+@font-face {
+    font-family:flatwheat;
+    src:url("../../fonts/Flatwheat-Regular.ttf");
+}
+@font-face {
+    font-family:semi;
+    src:url("../../fonts/Semi-Casual.ttf");
+}
+
+@font-face {
+    font-family:Abez;
+    src:url("../../fonts/Abez.ttf");
+}
